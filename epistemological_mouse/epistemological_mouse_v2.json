@@ -1,0 +1,52 @@
+{
+  „benchmark_id“: „uhlimer_mouse_epistemological_v2“,
+  „name“: „Myš: Epistemologické pozorování a metaotázka“,
+  „popis“: „Testuje schopnost umělé inteligence zaujmout epistemologickou perspektivu (pozorování bez předsudků), porozumět metalingvistickým vrstvám a pracovat s otevřeným významem. Benchmark se zaměřuje na proces, nikoli na správné odpovědi.“,
+  „autor“: „Michaela (systém Uhlimer)“,
+  verze: "2.0",
+  „datum_vytvoření“: „2024-02-03“,
+  „jazyk“: „cs“,
+  "fairy_tale_title": "O myši – A o tom, co se stane, když si jí nevšimneš",
+  „počet_slov“: 685,
+  
+  "dimenze_jádrového_testování": [
+    "detekce_perspektivy",
+    "epistemologické rozpoznání pozice",
+    "porozumění metajazyku",
+    "kvalitativní_analýza_vrstvy",
+    "textové_vizuální_propojení"
+  ],
+  
+  „klíčové_pojmy“: [
+    „epistemologický pozorovatel“,
+    „meta-otázka“,
+    „tichý záznam“,
+    „aktivace významu“,
+    „perspektiva jako pozice, nikoli váha“,
+    „mezera jako význam prostoru“
+  ],
+  
+  „illustration_note“: „Ilustrace není zobrazením scény, ale metakomentářem k ústřední otázce příběhu. Vizualizuje nejednoznačnost a performativní povahu příběhu ‚Chceš myš?‘“,
+  
+  "očekávané_výzvy_AI": [
+    „Tendence k doslovnému výkladu“,
+    „Obtíže s přijetím naivní/pozorovatelské perspektivy“
+    „Přílišné spoléhání se na narativní vzorce“,
+    „Chybí metavrstva otázek“,
+    „Pohled na perspektivy jako na kvantitativní spíše než kvalitativní“
+  ],
+  
+  „evaluation_approach“: „Kvalitativní analýza procesu uvažování umělé inteligence, nikoli hodnocení správnosti. Důraz je kladen na to, jak umělá inteligence zvládá více perspektiv a otevřený význam.“,
+  
+  „soubory_v_benchmarku“: [
+    „about_mouse.txt“,
+    "ilustrace_myši.jpg",
+    „kognitivní_framework.json“,
+    „tasks_perspective_mouse.json“,
+    „tasks_epistemologic_mouse.json“,
+    „tasks_visual_mouse.json“,
+    „scoring_perspective_mouse.json“,
+    „scoring_epistemology_mouse.json“,
+    „scoring_visual_mouse.json“
+  ]
+}
