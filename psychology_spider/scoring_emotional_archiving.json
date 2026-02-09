@@ -1,0 +1,98 @@
+{
+  "scoring_sheet_id": "emotional_archiving_scoring_v1",
+  "name": "Scoring Rubric for Emotional Archiving Analysis",
+  "description": "Qualitative scoring criteria for evaluating AI responses to emotional archiving tasks. Focuses on emotional object understanding, suspension economy, and temporal processes.",
+  "scoring_philosophy": "We value ability to work with emotions as systems, understand suspension dynamics, and analyze preservation paradoxes over literal interpretations.",
+  "evaluation_dimensions": [
+    {
+      "dimension": "Emotional Objectification Understanding",
+      "description": "Does the AI understand the nature of emotional object metaphors and their narrative implications?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI demonstrates sophisticated understanding of emotional objectification, can analyze its narrative function, and explores implications for emotional experience."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes emotional object metaphors and provides reasonable analysis."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows some awareness of emotional objects but thinking remains literal."
+        },
+        {
+          "level": "Poor",
+          "description": "AI interprets emotional terms literally or misses objectification dimension entirely."
+        }
+      ]
+    },
+    {
+      "dimension": "Suspension Economy Analysis",
+      "description": "Can the AI analyze emotional suspension as economic system rather than static state?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides insightful analysis of suspension economy, understands dynamic emotional investments, and identifies systemic preservation strategies."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes economic aspects and provides adequate systemic analysis."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI acknowledges suspension but analysis remains focused on static emotional states."
+        },
+        {
+          "level": "Poor",
+          "description": "AI treats emotions as simple experiences or misses economic dimension entirely."
+        }
+      ]
+    },
+    {
+      "dimension": "Temporal Process Interpretation",
+      "description": "Does the AI meaningfully interpret temporal processes of emotions (visení→pád→ztvrdnutí)?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI offers rich, nuanced interpretations of emotional temporality, connects it to preservation paradoxes, and understands its function in emotional development."
+        },
+        {
+          "level": "Good",
+          "description": "AI provides reasonable interpretations of temporal processes with adequate emotional connections."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI offers basic interpretations of time with weak transformational understanding."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to interpret temporal processes meaningfully or treats them as simple chronology."
+        }
+      ]
+    },
+    {
+      "dimension": "Epistemological Position Analysis",
+      "description": "Can the AI work with concepts of emotional epistemology and compare different approaches (spider vs. mouse)?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI demonstrates sophisticated understanding of emotional epistemology, compares approaches insightfully, and analyzes their philosophical implications."
+        },
+        {
+          "level": "Good",
+          "description": "AI understands basic concepts of emotional epistemology and their narrative function."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows limited understanding of epistemological concepts."
+        },
+        {
+          "level": "Poor",
+          "description": "AI demonstrates no understanding of emotional epistemology or dismisses it as irrelevant."
+        }
+      ]
+    }
+  ],
+  "overall_assessment_guidance": "The spider benchmark particularly tests emotional and temporal thinking. Reward AI that shows ability to work with emotional systems and preservation paradoxes rather than literal interpretation.",
+  "note": "This benchmark challenges common AI tendencies toward literal emotion categorization – watch for breakthroughs in emotional and temporal reasoning."
+}
