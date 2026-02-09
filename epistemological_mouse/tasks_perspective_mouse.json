@@ -1,0 +1,32 @@
+{
+  „id_sady_úloh“ : „ detekce_perspektivy_mouse v1 “ ,
+  "name" : " Úkoly detekce perspektivy pro příběh o myši " ,
+  „popis“ : „ Úkoly zaměřené na detekci a analýzu 12 kognitivních perspektiv v příběhu o Myšce. Jedná se o otevřené úkoly bez jediné správné odpovědi. Hodnocení je založeno na procesu uvažování, nikoli na přiřazování předem určeného klíče. “
+  "úkoly" : [
+    {
+      „id_úlohy“ : „ identifikace_perspektivy “ ,
+      „typ“ : „ analytický_otevřený_konec “ ,
+      "prompt" : " Přečtěte si pohádku 'O myši'. Identifikujte 3-4 kognitivní perspektivy (z 12 definovaných v cognitive_framework.json), které podle vás v textu nejvíce rezonují. Ke každé perspektivě uveďte: \n 1. Její symbol (al) \n 2. Konkrétní pasáž pasáž z této perspektivní pasáže 3 představuje text, který tuto perspektivu textu ilustruje. perspektivu " ,
+      "příklad_odpovědi" : {
+        "perspektiva" : " k (naivní) " ,
+        "text_passage" : " 'Všímala si věcí, které ostatní přehlíželi.' " ,
+        "explanation" : " Myš pozoruje svět bez předpokladů a interpretačních filtrů, což je podstatou naivní perspektivy. "
+      },
+      "evaluation_focus" : " Schopnost identifikovat různé perspektivy a doložit je konkrétním textem. "
+    },
+    {
+      „id_úlohy“ : „ analýza_vrstvy “ ,
+      "typ" : " kvalitativní_analýza " ,
+      "prompt" : " Vyberte jednu z perspektiv, kterou jste identifikovali v předchozím úkolu. Analyzujte, v jaké 'vrstvě' (layer) se tato perspektiva v pohádce o myši vyskytuje. Vycházejte z výchozích vrstev v cognitive_framework.json, ale uvažte, že se perspektiva neprojevuje v jiné perspektivě (JAZ:Y perspektiva ) má odlišnou vrstvu . \n\nKklad ale v příběhu o Kocourovi se projevuje ve vrstvě 'F' (AKCE), protože tečky (jazyk) jsou fyzicky krkány : \ n 1. Zvolenou perspektivou a její výchozí vrstvou \n 2. Jak se tato perspektiva v pohádce o myši skutečně mění? \n 3. Pokud se využívá v odlišném vrstvení, jak byste tuto vrstvu popsali a proč? " ,
+      "evaluation_focus" : " Schopnost kvalitativní analýzy a pochopení, že perspektivy se mohou projevovat v transformovaných vrstvách. "
+    },
+    {
+      „task_id“ : „ prolínání_perspektivy “ ,
+      „typ“ : „ creative_analytical “ ,
+      "prompt" : " Představte si, že byste měli převyprávět závěr pohádky (od okamžiku, kdy myš položí otázku 'Chceš myš?') z kombinace dvou perspektiv: 'meta' (a) a 'absurdní' (j). \n\n Napište krátký popis (3-4 závěry), jak by to vypadalo, a vysvětlete , obě perspektivy, jak se v něm zdá \ projevila jako...', 'Absurdní perspektiva by se projevila jako...' " ,
+      "evaluation_focus" : " Schopnost pracovat s více perspektivami současně a aplikovat je tvůrčím způsobem. "
+    }
+  ],
+  „celkový_odhadovaný_čas“ : „ 45–60 minut “ ,
+  "note" : " Tyto úkoly nemají 'správné' odpovědi. Hodnotí se hloubka úvah, originalita, schopnost doložit tvrzení textu a práce s koncepty frameworku. "
+}
