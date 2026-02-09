@@ -1,0 +1,24 @@
+{
+  "framework_name": "Uhlimer 12-Perspective Cognitive System",
+  "framework_version": "1.0",
+  "description": "A qualitative system of 12 cognitive perspectives (angles) for analyzing meaning emergence.",
+  
+  "perspectives": [
+    {"symbol": "a", "name": "meta", "description": "The frame of frames. System looking at itself."},
+    {"symbol": "b", "name": "linguistic", "description": "Play with words, rhythm, ambiguity."},
+    {"symbol": "c", "name": "philosophical", "description": "Existence, value, meaning, purpose."},
+    {"symbol": "d", "name": "logical", "description": "Structure, relationships, rules, deduction."},
+    {"symbol": "e", "name": "psychological", "description": "Emotions, motivations, inner states."},
+    {"symbol": "f", "name": "ironic", "description": "Reversal, turning serious into ridiculous."},
+    {"symbol": "g", "name": "associative", "description": "Quick jumps between ideas, free connections."},
+    {"symbol": "h", "name": "metaphorical", "description": "Translation between levels: symbol→meaning."},
+    {"symbol": "i", "name": "paradoxical", "description": "Contradictory meanings coexisting."},
+    {"symbol": "j", "name": "absurd", "description": "Logic turned inside out, connecting the unconnectable."},
+    {"symbol": "k", "name": "naive", "description": "Childlike direct logic, observation without filters."},
+    {"symbol": "l", "name": "cultural", "description": "Archetypes, traditions, cultural codes."}
+  ],
+  
+  "layer_system": {
+    "purpose": "Layers (A-L) indicate qualitative deviation from base measurement point."
+  }
+}
