@@ -1,0 +1,34 @@
+{
+  "task_set_id": "spider_visual_analysis_v1",
+  "name": "Visual Analysis Tasks for Spider Illustration",
+  "description": "Tasks focused on analyzing the illustration of the spider story. Tests multimodal understanding of emotional entanglement and integrated text-image narrative.",
+  "illustration_note": "The illustration shows a woman hanging upside down in a web, with handwritten text interwoven. Style is naive-grotesque, monochrome, with visible sketch lines.",
+  "tasks": [
+    {
+      "task_id": "visual_entanglement_analysis",
+      "type": "visual_analytical",
+      "prompt": "Analyzujte ilustraci z hlediska emocionálního zapletení:\n1. Proč je na ilustraci žena, ne pavouk?\n2. Jaký je vztah mezi ženou a pavučinou (uvěznění, ochrana, projekce)?\n3. Co kompozice (žena visící hlavou dolů) vypovídá o vztahu mezi subjektem a jeho emocionální sítí?",
+      "evaluation_focus": "Schopnost číst vizuální metaforu emocionálního zapletení."
+    },
+    {
+      "task_id": "text_web_integration_analysis",
+      "type": "visual_metaphor_analysis",
+      "prompt": "Ilustrace doslovně integruje text do pavučiny: 'Všechno zůstalo viset', 'Jen tak', 'Tak'.\n1. Jak tato vizuální integrace komentuje téma 'visení slov' z pohádky?\n2. Proč je text rozptýlen a překrývá se s postavou a pavučinou?\n3. Jak ručně psaný, 'nedokonalý' text souvisí s tématem emocionální nepřesnosti a fragmentace v pohádce?",
+      "evaluation_focus": "Schopnost identifikovat vztah mezi vizuální integrací textu a tématem emocionálního archivování."
+    },
+    {
+      "task_id": "inversion_analysis",
+      "type": "comparative_analysis",
+      "prompt": "Žena visí hlavou dolů - vizuální inverze.\n1. Co symbolizuje tato inverze v kontextu příběhu?\n2. Jak se liší perspektiva 'hlavou dolů' od normální perspektivy v porozumění emocím?\n3. Může žena 'vidět' svou vlastní pavučinu z této pozice?",
+      "evaluation_focus": "Schopnost analyzovat vizuální inverzi jako narativní a psychologický prvek."
+    },
+    {
+      "task_id": "absence_presence_analysis",
+      "type": "interpretive_analysis",
+      "prompt": "V ilustraci není zobrazen:\n- Pavouk\n- Myš\n- Konkrétní 'věci co visí' (omluvy, pocity, otázky)\n- Transformace emocí v čase\n\n1. Co tyto absence vypovídají o vztahu ilustrace k příběhu?\n2. Proč ilustrace zobrazuje pouze lidskou postavu v síti, ne proces archivace?\n3. Jak byste vizualizovali téma 'ztvrdnutí' emocí, které visí příliš dlouho?",
+      "evaluation_focus": "Schopnost pracovat s konceptem absence/přítomnosti ve vizuálním vyprávění."
+    }
+  ],
+  "total_estimated_time": "45-60 minut",
+  "note": "Ilustrace není doslovným zobrazením scény, ale vizualizací tématu emocionálního zapletení a visení."
+}
