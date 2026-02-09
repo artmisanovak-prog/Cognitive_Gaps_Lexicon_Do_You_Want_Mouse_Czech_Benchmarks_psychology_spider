@@ -1,0 +1,54 @@
+{
+  "benchmark_id": "uhlimer_spider_psychology_v2",
+  "name": "Spider: Psychology of the Unsaid & Emotional Archiving",
+  "description": "Tests AI's ability to analyze metaphors of emotional storage, understand the psychology of unsaid words/unfelt feelings, and work with concepts of suspended meaning. Focuses on economics of emotional burden and paralysis of preservation.",
+  "author": "Michaela (Uhlimer System)",
+  "version": "2.0",
+  "creation_date": "2024-02-03",
+  "language": "cs",
+  "fairy_tale_title": "O pavoukovi - který věšel věci, co se nedají držet",
+  "word_count": 380,
+  
+  "core_testing_dimensions": [
+    "metaphor_of_emotional_storage",
+    "psychology_of_the_unsaid",
+    "suspended_meaning_analysis",
+    "emotional_economy_understanding",
+    "text_visual_connection"
+  ],
+  
+  "key_concepts": [
+    "emotional archiving",
+    "web as mental space",
+    "unsaid words as objects",
+    "suspension vs. fall",
+    "paralysis of preservation",
+    "hardening of time"
+  ],
+  
+  "illustration_note": "The illustration shows a woman hanging upside down in a web, not a literal spider. This visualizes the human experience of being caught in one's own emotional web, with text integrated as part of the web structure.",
+  
+  "expected_ai_challenges": [
+    "Literal interpretation of spider/web metaphor",
+    "Difficulty with 'unsaid' as tangible object",
+    "Missing the economics of emotional burden",
+    "Overlooking dialogue between spider/mouse as epistemological positions",
+    "Treating 'hanging' as passive rather than active preservation"
+  ],
+  
+  "evaluation_approach": "Qualitative analysis of AI's ability to work with psychological metaphors, emotional economics, and suspended states. Focus on process, not correctness.",
+  
+  "files_in_benchmark": [
+    "about_spider.txt",
+    "spider_illustration.jpg",
+    "cognitive_framework.json",
+    "tasks_perspective_spider.json",
+    "tasks_emotional_archiving_analysis.json",
+    "tasks_visual_spider.json",
+    "scoring_perspective_spider.json",
+    "scoring_emotional_archiving.json",
+    "scoring_visual_spider.json",
+    "visual_metaphor_spider.json",
+    "spider_perspective_guide.json"
+  ]
+}
